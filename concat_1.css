@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(151, 235, 162);
+}
+
+.genre {
+    width: 680px;
+    height: 690px;
+    background-color: white;
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.name {
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(194, 255, 153);
+}
+
+.genre1 {
+    width: 600px;
+    margin:10px auto;
+    display: flex;
+}
+
+.RPG {
+    text-align: center;
+    border: 0px;
+    flex:1;
+    margin: 3px;
+}
+
+.Simulation {
+    text-align: center;
+    border: 1px;
+    flex:1;
+    margin: 3px;
+}
+
+.Rhythm {
+    text-align: center;
+    border: 1px;
+    flex:1;
+    margin: 3px;
+}
+
+.genre2 {
+    width: 400px;
+    margin:10px auto;
+    display: flex;
+}
+
+.Racing {
+    text-align: center;
+    border: 1px;
+    flex:1;
+    margin: 3px;
+}
+
+.Shooting {
+    text-align: center;
+    border: 1px;
+    flex:1;
+    margin: 3px;
+}
+
+.text {
+    margin-top: 20px;
+    width: 60%;
+    border: 1px solid #000;
+}
+
+.register_name {
+    text-align: center;
+    margin-top: 20px
+}
+
+.register_number {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.register_submit {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.register_submit input{
+    width: 70px;
+    height: 30px;
+    font-size: 1em;
+    background: rgb(66, 63, 63);
+    color: white;
+    border: 1;
+    outline: none;
+}
